@@ -1,0 +1,14 @@
+{
+  "name": "multi-platform-node-service",
+  "version": "1.0.0",
+  "description":
+    "this package select the correct node service (node-linux / node-mac / node-windows) by the current running OS",
+  "main": "index.js",
+  "author": "Haim Rubin & Elad Hayun",
+  "license": "MIT",
+  "optionalDependencies": {
+    "node-linux": "^0.1.11",
+    "node-mac": "^0.1.8",
+    "node-windows": "^0.1.14"
+  }
+}
